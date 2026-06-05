@@ -1,0 +1,46 @@
+# ===== Python 字节码 =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pdb
+
+# ===== 虚拟环境 =====
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ===== IDE =====
+.vs/
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+.DS_Store
+Thumbs.db
+
+# ===== 项目运行时产物 =====
+crash.log
+*.log
+_test_*.png
+_test_*.jpg
+test_*.py
+build/
+dist/
+# PyInstaller 生成的 spec 默认忽略，但保留项目自带的 build.spec
+*.spec
+!build.spec
+*.egg-info/
+
+# ===== 用户数据（运维平台自动生成的资源） =====
+assets/
+*.json.bak
+
+# ===== 系统文件 =====
+*.lnk
+desktop.ini
